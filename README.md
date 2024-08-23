@@ -1,2 +1,7 @@
-# front-End-Mentor-Challeng1
-front  End Mentor Challeng1  Social_proof_section
+# Frontend Mentor - Social proof section
+
+
+## Welcome! 👋
+
+Thanks for checking out this front-end coding challenge.
+

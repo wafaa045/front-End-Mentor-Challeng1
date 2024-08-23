@@ -1,0 +1,125 @@
+ *{  font-family: 'League Spartan', sans-serif;
+ }
+
+  .frist_section{ display: flex;  
+    margin: 40px; 
+justify-content: space-between;}
+  
+  .frist_section h1{ color: hsl(300, 43%, 22%); 
+    font-size: 50px;}
+.frist_section p{ text-transform: capitalize; 
+color: hsl(300, 43%, 22%);}
+
+
+ .start_section { display: flex;
+flex-direction: column;
+margin: 40px 100px 40px -40px ;
+padding: 5px;
+}
+ .start_div1{ display: flex;
+background-color:   hsl(303, 10%, 53%);
+
+border-radius: 5px;
+
+}
+.start_div2{ display: flex;
+    background-color:   hsl(303, 10%, 53%);
+    margin:20px 0px 0px 50px;
+    border-radius: 5px;
+    margin-right: -50px;
+    padding:  0px 30px 0px 0px;
+    }
+    .start_div3{ display: flex;
+        background-color:  hsl(303, 10%, 53%);
+        margin:20px 0px 0px 100px;
+        border-radius: 5px;
+        margin-right: -100px;
+        padding:  0px 50px 0px 0px;
+        }
+.i_start{ margin: 20px 20px 5px 20px; 
+    display:  flex; }
+
+    .frist_section h2{ color: hsl(300, 43%, 22%); }
+    .card_section{ display: flex; justify-content: space-evenly; margin: 40px;}
+
+    .card_section section { background-color:hsl(300, 43%, 22%) ;
+       
+        border-radius:8px;
+    padding:  30px 20px;
+height: 200px;  width: 450px;}
+
+    .cardDiv_section1{
+        margin: 10px;
+ } 
+
+      .cardDiv_section2{  
+        margin: 40px 10px 30px 30px; 
+      } 
+
+    .cardDiv_section3{ 
+        margin: 80px 20px 0px 30px;
+      
+    } 
+
+.card_div{ display:flex; 
+    
+}
+img{ border-radius: 50%;}
+
+.card_div_h{ margin-left:40px;
+    
+}
+h3{color: hsl(0, 0%, 100%);}
+
+h4{ color: hsl(333, 80%, 67%)}
+.card_section p{ color:hsl(0, 0%, 100%); }
+
+.attribution{ color: hsl(300, 43%, 22%);
+font-size:20px;}
+
+.attribution a { 
+color: hsl(333, 80%, 67%) ; 
+text-transform: capitalize; 
+text-decoration: none; 
+
+}
+@media (max-width: 975px) {
+
+    .frist_section{ display: flex;
+         flex-direction: column;
+         justify-content: center;
+         padding-left: 50px;
+        }
+    .frist_section div{ margin:20px 0px 0px 10px ; }
+    .card_section{ display: flex;  
+        flex-direction: column;
+        justify-content: center;
+         margin:20px;
+         padding-left: 50px;
+        
+        }
+        .card_section section{ margin-left: 0px !important;
+        
+        margin-top: 10px;}
+
+}
+@media (max-width: 600px) {
+
+    .frist_section{ display: flex; 
+        flex-direction: column;
+         justify-content: center;
+        margin: 10px;
+        padding-left: 80px;
+        }
+    
+ .card_section{ display: flex;  
+    flex-direction: column;
+    justify-content: center;
+     margin:20px;
+    
+    }
+    .card_section section{ margin-left:0px !important;
+    
+    margin-top: 10px;}
+    
+}
